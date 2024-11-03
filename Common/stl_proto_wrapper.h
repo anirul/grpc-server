@@ -30,7 +30,7 @@ namespace darwin {
         {
             throw std::runtime_error(
                 "Couldn't parse json status error: " +
-                status.message().as_string());
+                std::string(status.message()));
         }
         return proto;
     }
@@ -49,7 +49,7 @@ namespace darwin {
         {
             throw std::runtime_error(
                 "Couldn't parse json status error: " +
-                status.message().as_string());
+                std::string(status.message()));
         }
         return json;
     }

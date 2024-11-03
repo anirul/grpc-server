@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <glm/glm.hpp>
+#include <mutex>
 #include "darwin_service.pb.h"
 
 namespace darwin {

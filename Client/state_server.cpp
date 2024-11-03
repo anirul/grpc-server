@@ -1,6 +1,7 @@
 #include "state_server.h"
 
 #include <memory>
+#include <algorithm>
 
 #include "frame/gui/draw_gui_interface.h"
 #include "state_context.h"
